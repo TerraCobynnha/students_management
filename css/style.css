@@ -1,0 +1,155 @@
+/* Body Styling */
+body {
+  background-color: #f3f3f3;
+}
+/* Body Styling ends*/
+
+
+/* Navigation bar starts */
+
+.navbar {
+  margin-bottom:0;
+  border-radius:0;
+}
+
+/* #welcomeMsg {
+  color: #fff;
+
+} */
+
+/* Navigation bar ends */
+
+/* Showcase area starts */
+
+#showcase {
+  color: #fff;
+  background-image: url("../images/showcase.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 150px 0px;
+}
+
+#showcase .btn {
+  margin: 10px;
+}
+
+/* Showcase area starts */
+
+/* sample features starts */
+#sample-features .sample-box{
+  text-align: center;
+}
+
+#sample-features .sample-box p{
+  font-size: 16px;
+}
+/* sample features ends */
+
+/* Breadcrumb starts */
+.breadcrumb {
+  margin-top: 10px;
+  background-color: #cccccc;
+  color: #333333;
+}
+
+.breadcrumb a{
+  color: #333333;
+}
+/* Breadcrumb ends */
+
+/* Dashboard styling starts*/
+#header {
+  margin-top: 50px;
+}
+#header .create {
+  padding-top: 30px;
+}
+/* Dashboard styling ends*/
+
+/* View */
+#viewImg {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+
+}
+
+.view-record-entry td{
+  line-height: 70px !important;
+}
+
+/* View ends */
+
+/* Signup styling starts */
+#signup-container {
+  margin-top: 100px;
+}
+
+#signup-container .well{
+  margin-top:30px;
+  margin-bottom:30px;
+  border-right: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+}
+
+#signup-container .form-group {
+  position: relative;
+}
+#signup-container .form-group input[type="password"],#signup-container .form-group input[type="text"]{
+  padding-right: 30px;
+}
+
+#signup-container .form-group .glyphicon{
+  position: absolute;
+  right: 10px;
+  top: 35px;
+}
+
+#msg-box {
+  background-color: #333;
+  color: #ffffff;
+}
+
+/* Signup styling ends */
+
+/* Login styling starts */
+
+/* Eye */
+
+#form-group-login {
+  position: relative;
+}
+
+#form-group-login input[type='text'], #form-group-login input[type='password']{
+  padding-right: 30px;
+}
+
+#form-group-login .glyphicon{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+/* Login styling ends */
+
+/* Add record start */
+#optionchoose .btn {
+  margin: 10px;
+}
+/* Add record ends */
+
+
+
+/* footer starts */
+#footer {
+  background:#333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+}
+/* footer ends */
